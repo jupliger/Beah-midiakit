@@ -1,0 +1,98 @@
+html,figure,body, div, input, textarea,a, p, h1, h2, h3, h4, h5, h6, ul{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Lato', sans-serif;
+     list-style: none;
+     
+}
+
+body{
+     background-color: black;
+     background-image: linear-gradient( to right, rgb(255, 0, 212),rgb(82, 4, 102) 2000px );
+     width: 1348px;
+}
+
+header{
+     background-color:rgb(0, 0, 0);
+     display: flex;
+     flex-direction: row-reverse;
+     align-items: center;
+     justify-content: space-around;
+     width: 1349px;
+     height: 80px;
+     color: white;
+}
+
+a{
+     border: none;
+     background-color: blueviolet;
+     border-radius: 10px;
+     color: white;
+     padding: 10px 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     transition-duration: 0.4s;
+     cursor: pointer;
+
+}
+
+header img{
+     margin-right: 20px;
+     width: 40px;
+     height: 40px;
+}
+
+.destaquePrincipal img {
+     width: 1349px;
+     height: 910px;
+}
+
+.bio {
+
+     color: white;
+     font-size: 20px;
+     background-image:url("./assets/foto1.png");
+     background-size: 1373px;
+
+     width: 1349px;
+ 
+
+}
+
+.tituloBio{
+     display: flex;
+     flex-direction: row;
+     margin-left: 80px;
+}
+.tituloBio img{
+     margin-top: 20px;
+     margin-bottom: 30px;
+     width: 640px;
+     height: 200px; 
+ }
+ .titulobio .fotolateral img{
+      width: 700px;
+
+ }
+.tituloBio{
+     width:640px
+}
+ .biotext img{
+     width: 515px;
+     height: 550px;  
+ }
+
+
+ .marcos{
+      margin-top: 30px;
+ }
+
+ .biotext {
+      display:flex;
+      margin-left: 80px;
+
+ }
