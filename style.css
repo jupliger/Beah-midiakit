@@ -1,20 +1,53 @@
+@font-face {
+     font-family: Montserrat;
+     src:"./fonts"
+   }
+   @font-face {
+     font-family: Monument;
+     src:"./fonts"
+   }
+
+   /* tamanho da barra de rolagem*/
+::-webkit-scrollbar{
+     width:  13px;
+      
+
+}
+::-webkit-scrollbar-track{
+     /* caminho da barra
+     sombra na barra*/
+     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+     background: transparent;
+     width: 6px;
+}
+/* tamanho barrinha da barra de rolagem kk*/
+::-webkit-scrollbar-thumb{
+     background: #ffffff;
+     border-radius: 30px;
+     
+}
+
 html,figure,body, div, input, textarea,a, p, h1, h2, h3, h4, h5, h6, ul{
      margin: 0;
      padding: 0;
      box-sizing: border-box;
-     font-family: 'Lato', sans-serif;
+     font-family: Monument;
+     color: #dfdfdf;
      list-style: none;
+     text-decoration: none;
+     
      
 }
 
 body{
-     background-color: black;
-     background-image: linear-gradient( to right, rgb(255, 0, 212),rgb(82, 4, 102) 2000px );
+     background-color:rgb(161, 123, 245) ;
+     background-image: linear-gradient( to right, rgb(204, 65, 242),rgb(134, 158, 241) 2000px );
      width: 1348px;
+
 }
 
 header{
-     background-color:rgb(0, 0, 0);
+    
      display: flex;
      flex-direction: row-reverse;
      align-items: center;
@@ -24,32 +57,44 @@ header{
      color: white;
 }
 
-a{
-     border: none;
-     background-color: blueviolet;
-     border-radius: 10px;
-     color: white;
-     padding: 10px 20px;
-     text-align: center;
-     text-decoration: none;
-     display: inline-block;
-     font-size: 16px;
-     margin: 4px 2px;
-     transition-duration: 0.4s;
-     cursor: pointer;
 
-}
 
 header img{
-     margin-right: 20px;
+     /*margin-right: 20px;*/
      width: 40px;
      height: 40px;
+}
+header a{
+     font-family: Monument;
+     color: #dfdfdf;
+     font-weight: bolder;
+     /*margin-top: 445px;*/
+    font-size: 40px;
+    margin-left: 825px;
+}
+.destaquePrincipal{
+     margin-bottom: 150px;
 }
 
 .destaquePrincipal img {
      width: 1349px;
      height: 910px;
+     margin-top: -305px;
 }
+
+.latest-Releases{
+   display: flex;
+   align-content: center;
+   justify-content: space-around;
+
+}
+h1{
+     font-size: 40px;
+}
+
+
+
+
 
 .bio {
 
