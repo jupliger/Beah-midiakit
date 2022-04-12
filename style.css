@@ -38,6 +38,9 @@ html,figure,body, div, input, textarea,a, p, h1, h2, h3, h4, h5, h6, ul{
      
      
 }
+canvas {
+     display: block;
+}
 
 body{
      background-color:rgb(161, 123, 245) ;
@@ -73,7 +76,7 @@ header a{
     margin-left: 825px;
 }
 .destaquePrincipal{
-     margin-bottom: 150px;
+     margin-bottom: 120px;
 }
 
 .destaquePrincipal img {
@@ -86,6 +89,7 @@ header a{
    display: flex;
    align-content: center;
    justify-content: space-around;
+
 
 }
 h1{
@@ -104,6 +108,8 @@ h1{
      background-size: 1373px;
 
      width: 1349px;
+     height: 900px;
+     margin-top: 800px;
  
 
 }
@@ -131,13 +137,33 @@ h1{
      height: 550px;  
  }
 
-
  .marcos{
-      margin-top: 30px;
+     margin-top: 30px;
  }
 
  .biotext {
       display:flex;
       margin-left: 80px;
+
+ }
+
+ .ReleasesArrows{
+     width: 100px;
+     height: 100px;
+ }
+ .ReleasesArrows:hover{
+      border: solid white;
+      border-radius: 100px;
+      width: 80px;
+      height: 80px;
+ }
+ .albums{
+     margin-top: 50px;
+ }
+
+ .albums:hover{
+      width: 420px;
+      height: 420px;
+ 
 
  }
