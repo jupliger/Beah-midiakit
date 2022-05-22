@@ -1,3 +1,5 @@
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+
 @font-face {
      font-family: Montserrat;
      src:"./fonts"
@@ -27,7 +29,7 @@
      
 }
 
-html,figure,body, div, input, textarea,a, p, h1, h2, h3, h4, h5, h6, ul{
+html,figure,body,button, div, input, textarea,a, p, h1, h2, h3, h4, h5, h6, ul{
      margin: 0;
      padding: 0;
      box-sizing: border-box;
@@ -35,6 +37,7 @@ html,figure,body, div, input, textarea,a, p, h1, h2, h3, h4, h5, h6, ul{
      color: #dfdfdf;
      list-style: none;
      text-decoration: none;
+     border:0ch
      
      
 }
@@ -76,7 +79,7 @@ header a{
     margin-left: 825px;
 }
 .destaquePrincipal{
-     margin-bottom: 120px;
+     margin-bottom: 80px;
 }
 
 .destaquePrincipal img {
@@ -87,16 +90,22 @@ header a{
 
 .latest-Releases{
    display: flex;
+   flex-direction: column;
+   width: 60%;
    align-content: center;
    justify-content: space-around;
 
 
 }
+
+.latest-Releases h1{
+     padding-left: 50px;
+     margin-bottom: 30px;
+}
+
 h1{
      font-size: 40px;
 }
-
-
 
 
 
@@ -109,7 +118,7 @@ h1{
 
      width: 1349px;
      height: 900px;
-     margin-top: 800px;
+     margin-top: 100px;
  
 
 }
@@ -125,45 +134,29 @@ h1{
      width: 640px;
      height: 200px; 
  }
- .titulobio .fotolateral img{
+.titulobio .fotolateral img{
       width: 700px;
 
  }
 .tituloBio{
      width:640px
 }
- .biotext img{
+
+.biotext img{
      width: 515px;
      height: 550px;  
- }
+}
 
- .marcos{
-     margin-top: 30px;
- }
-
- .biotext {
+.biotext {
       display:flex;
       margin-left: 80px;
 
- }
+}
 
- .ReleasesArrows{
-     width: 100px;
-     height: 100px;
- }
- .ReleasesArrows:hover{
-      border: solid white;
-      border-radius: 100px;
-      width: 80px;
-      height: 80px;
- }
- .albums{
-     margin-top: 50px;
- }
+.music a{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     align-content: center;
+}
 
- .albums:hover{
-      width: 420px;
-      height: 420px;
- 
-
- }

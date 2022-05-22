@@ -10,13 +10,21 @@
      <script src="./lib/p5.play.js"></script>
      <script src="./lib/p5.gif.min.js"></script>
 
-     <script src="./releases.js"></script>
-     <script src="./sketch.js"></script>
+   
      <link rel="shortcut icon" href="./assets/Logo tigre.png">
-     <link rel="stylesheet" type="text/css" href="style.css">
+     <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+     <link rel="stylesheet" type="text/css" href="./CSS/">
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+     <!-- Required Core stylesheet -->
+     <link rel="stylesheet" href="CSS/glide.core.min.css">
+
+     <!-- Optional Theme stylesheet -->
+    <link rel="stylesheet" href="CSS/glide.theme.min.css">
+
+
      <title>Beáh Oficial</title>
 
     
@@ -44,7 +52,63 @@
      <section class="latest-Releases">
           <h1>LATEST RELEASES</h1>
        
-
+          <div class="glide">
+               <div data-glide-el="track" class="glide__track">
+                 <ul class="glide__slides">
+                   <li class="glide__slide">
+                      <div class="music">
+                           <a href="https://open.spotify.com/album/5pbVh1vS76j40imU7lKQph" target="_blank">
+                              <img src="./assets/releases/jimmy.png">
+                              <h3>Jimmy</h5>
+                              <p>Muzenga Records</p>
+                           </a>
+                      </div>
+                   </li>
+                   <li class="glide__slide">
+                         <div class="music">
+                              <a href="https://www.youtube.com/watch?v=v30N59rsyMQ&ab_channel=BE%C3%81HOFICIAL" target="_blank">
+                                   <img src="./assets/releases/liveset-youtube.png">
+                                   <h3>De corpo e Alma</h5>
+                                   <p>Live set - The Garden</p>
+                              </a>
+                                   
+                         </div>
+                    </li>
+                   <li class="glide__slide">
+                         <div class="music">
+                              <a href="https://open.spotify.com/album/5CmWmZD5ye0hLoOKr2wDPE" target="_blank">
+                                   <img src="/assets/releases/harddays.png">
+                                   <h3>Hard Days</h5>
+                                   <p>Mustache Crew Records</p>
+                              </a>
+                         </div>
+                   </li>
+                   <li class="glide__slide">
+                         <div class="music">
+                              <a href="https://soundcloud.com/beahoficial/live-set-radio-energia-97-fm" target="_blank">
+                                   <img src="./assets/releases/set-energia.png">
+                                   <h3>Set Energia</h5>
+                                   <p>Live set - Energia 97 FM</p>
+                              </a>
+                         </div>
+                    </li>
+                    <li class="glide__slide">
+                         <div class="music">
+                              <a href="https://soundcloud.com/mustachecrewrecords/mustache-mixes-008-beah" target="_blank">
+                                   <img src="./assets/releases/mustachemix.png">
+                                   <h3>Mustache Mix</h5>
+                                   <p>Mustache Crew Records</p>
+                              </a>
+                         </div>
+                    </li>
+                 </ul>
+               </div>
+               <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><img src="./assets/seta-esquerda.png" width="50px" height="50px"></button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><img src="./assets/seta-direita.png" width="50px" height="50px" ></button>
+               </div>
+          </div>
+              
 
      </section>
 
@@ -123,8 +187,17 @@
                
 
            
-     </section>
+      </section>
+    
+      <a href="#" class="top">
+          <img src="./assets/img/top.png" alt="Voltar ao topo">
+     </a>
+     <script src="./sketch.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+     <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
 
-
+     <script>
+     new Glide('.glide').mount()
+     </script>
 </body>
 </html>
