@@ -3,11 +3,13 @@
 @font-face {
      font-family: Montserrat;
      src:"./fonts"
-   }
-   @font-face {
+}
+
+@font-face {
      font-family: Monument;
      src:"./fonts"
-   }
+}
+
 
    /* tamanho da barra de rolagem*/
 ::-webkit-scrollbar{
@@ -15,6 +17,7 @@
       
 
 }
+
 ::-webkit-scrollbar-track{
      /* caminho da barra
      sombra na barra*/
@@ -27,6 +30,7 @@
      
      width: 6px;
 }
+
 /* tamanho barrinha da barra de rolagem kk*/
 ::-webkit-scrollbar-thumb{
      background: #9e6da5;
@@ -77,6 +81,7 @@ body{
      font-size: 70%;
      margin-left: 20%;
 }
+
 .navbar img{
     width: 3%;
     height: 3%;
@@ -114,7 +119,7 @@ body{
 
 .destaquePrincipal div:hover{
      border-bottom: solid rgb(255, 255, 255) 4px;
- }
+}
 
 
 .latest-Releases{
@@ -129,7 +134,6 @@ body{
 
 .latest-Releases h1{
      padding-left: 50px;
-     margin-bottom: 30px;
 }
 
 h1{
@@ -161,11 +165,12 @@ h1{
      margin-bottom: 30px;
      width: 640px;
      height: 200px; 
- }
+}
 .titulobio .fotolateral img{
       width: 700px;
 
- }
+}
+
 .tituloBio{
      width:640px
 }
@@ -207,7 +212,6 @@ footer{
 }
 
 
-
 .top{
      position: sticky;
      bottom: 0;
@@ -216,17 +220,61 @@ footer{
 
     
 }
+
 .top img{
      margin-bottom: 20px;
 }
+
 .top div{
      width: 50px;
 }
-
 
 .top img:hover{
      border: solid white 2px;
      border-radius: 100%;
 }
 
+/* MEDIA QUERIES */
+@media screen and (max-width: 590px) {
+     .navbar{
+          display: flex;
+          flex-direction: row-reverse;
+          align-items: center;
+          justify-content: space-around;
+          position: sticky;
+          top: 0;
+          background-color: white;
+          width: 100%;
+          margin: 0 auto;
+          font-weight: bolder;
+          z-index: 10;
+     }
+     
+     .navbar a{
+          color: black;
+          font-size: 120%;
+          margin-left: 20%;
+     }
+     
+     .navbar img{
+         width: 4%;
+         height: 4%;
+         margin: 2.5%;
+     }
+     
+     .navbar a:hover{
+         border-bottom: solid black 3px;
+     }     
 
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+        
+}
+
+@media screen and (min-width: 1200px) {
+        
+}
