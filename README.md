@@ -18,7 +18,7 @@ deve conter todos os grandes marcos da carreira dela,
 de forma atraente e interativa para possiveis contratantes.
 
 A organização e o planejamento foi feito utilizando uma ferramenta gerenciamento,
-o "Asana". Divido em pequenas tarefas para formar o todo, sempre levando em consideração o nicho
+o "Asana". Dividido em pequenas tarefas para formar o todo, sempre levando em consideração o nicho
 da cliente e as melhores formar de mostrar o conteúdo, com uma interface limpa, sempre com um botão "call to action" a vista, maximizando a conversão dos leads.
 
 Todo o prejeto foi desenvolvido por Juliana Pliger, seja o UX/UI envolvedo o photoshop e Figma,
